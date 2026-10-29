@@ -1,0 +1,147 @@
+{
+ "E1": {
+  "TrustGuardLedger": {
+   "deploy_gas": 1095542,
+   "len0": {
+    "ISSUE": 152189,
+    "ROTATE": 172661,
+    "REVOKE": 172661,
+    "ESCALATE": 172661
+   },
+   "len50": {
+    "ISSUE": 218454,
+    "ROTATE": 238366,
+    "REVOKE": 238366,
+    "ESCALATE": 238366
+   },
+   "len100": {
+    "ISSUE": 264217,
+    "ROTATE": 284129,
+    "REVOKE": 284129,
+    "ESCALATE": 284129
+   },
+   "len200": {
+    "ISSUE": 333161,
+    "ROTATE": 353073,
+    "REVOKE": 353073,
+    "ESCALATE": 353073
+   }
+  },
+  "TrustGuardLedgerCompact": {
+   "deploy_gas": 640365,
+   "len0": {
+    "ISSUE": 128170,
+    "ROTATE": 124762,
+    "REVOKE": 124762,
+    "ESCALATE": 124762
+   },
+   "len50": {
+    "ISSUE": 126160,
+    "ROTATE": 126172,
+    "REVOKE": 126172,
+    "ESCALATE": 126172
+   },
+   "len100": {
+    "ISSUE": 127559,
+    "ROTATE": 127571,
+    "REVOKE": 127571,
+    "ESCALATE": 127571
+   },
+   "len200": {
+    "ISSUE": 129956,
+    "ROTATE": 129968,
+    "REVOKE": 129968,
+    "ESCALATE": 129968
+   }
+  }
+ },
+ "E2": {
+  "automine": {
+   "n": 100,
+   "mean_ms": 18.68577079000005,
+   "p50_ms": 18.386434000007057,
+   "p95_ms": 24.949555000006285,
+   "max_ms": 29.052508000006583,
+   "tx_per_s": 53.49860501879175
+  },
+  "interval_1000ms": {
+   "n": 8,
+   "mean_ms": 1002.2721955000052,
+   "max_ms": 1061.2593520000075
+  },
+  "interval_2000ms": {
+   "n": 8,
+   "mean_ms": 2013.4438501249967,
+   "max_ms": 2090.842911999999
+  }
+ },
+ "E3": {
+  "TrustGuardLedger": {
+   "sent": 150,
+   "included_in_first_block": 150,
+   "block_gas_used": 39166400,
+   "block_gas_limit": 60000000,
+   "second_block_txs": 0
+  },
+  "TrustGuardLedgerCompact": {
+   "sent": 150,
+   "included_in_first_block": 150,
+   "block_gas_used": 19029750,
+   "block_gas_limit": 60000000,
+   "second_block_txs": 0
+  }
+ },
+ "E4": {
+  "50": {
+   "entryCount_ms": 5.429197200002989,
+   "getEntry_ms": 7.414244799997505,
+   "getEntriesForDevice_ms": 12.653354400003991,
+   "full_audit_s": 0.3167493699999966
+  },
+  "200": {
+   "entryCount_ms": 5.358596849998776,
+   "getEntry_ms": 6.121639250001465,
+   "getEntriesForDevice_ms": 35.56075259999716,
+   "full_audit_s": 1.2983807329999877
+  },
+  "500": {
+   "entryCount_ms": 5.072783899996125,
+   "getEntry_ms": 6.47384855000297,
+   "getEntriesForDevice_ms": 65.55983260000744,
+   "full_audit_s": 3.4453051179999927
+  }
+ },
+ "E5": {
+  "tamper": {
+   "A_offchain_only": {
+    "naive_edit_detected": true,
+    "rewrite_detected": false
+   },
+   "B_dualledger": {
+    "naive_edit_detected": true,
+    "rewrite_detected_by_chain_check": true,
+    "rewrite_detected_by_local_check_only": false
+   },
+   "stranger_write_blocked": true,
+   "state_changing_functions": [
+    "authorizeWriter",
+    "recordEvent",
+    "renounceOwnership",
+    "revokeWriter",
+    "transferOwnership"
+   ]
+  },
+  "append_offchain_us": 8.77198400000623,
+  "append_dual_ms": 19.084454200000778,
+  "verify_100_entries_s": 0.008262083000005305,
+  "verify_ok_before_attack": null
+ },
+ "E6": {
+  "verify_true": true,
+  "verify_forged": false
+ },
+ "E7": {
+  "verify_100_s": 0.6022581420000108,
+  "verify_ok_clean": true
+ }
+}

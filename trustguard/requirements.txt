@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+numpy
+pandas
+scikit-learn
+cryptography
+web3
+pytest

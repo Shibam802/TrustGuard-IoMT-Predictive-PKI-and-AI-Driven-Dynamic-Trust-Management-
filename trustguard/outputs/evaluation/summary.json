@@ -1,0 +1,53 @@
+{
+  "reactive": {
+    "system": "reactive",
+    "precision": 0.9143,
+    "recall": 1.0,
+    "f1_score": 0.9552,
+    "false_positive_rate": 0.0312,
+    "accuracy": 0.9766,
+    "tp": 32,
+    "fn": 0,
+    "fp": 3,
+    "tn": 93,
+    "latency_n_detected": 32,
+    "latency_mean_latency": 5.0,
+    "latency_median_latency": 4.0,
+    "latency_min_latency": 1.0,
+    "latency_max_latency": 37.0
+  },
+  "predictive_default": {
+    "system": "predictive_default",
+    "precision": 0.3765,
+    "recall": 1.0,
+    "f1_score": 0.547,
+    "false_positive_rate": 0.5521,
+    "accuracy": 0.5859,
+    "tp": 32,
+    "fn": 0,
+    "fp": 53,
+    "tn": 43,
+    "latency_n_detected": 32,
+    "latency_mean_latency": 19.62,
+    "latency_median_latency": 9.5,
+    "latency_min_latency": 4.0,
+    "latency_max_latency": 47.0
+  },
+  "predictive_tuned": {
+    "system": "predictive_tuned",
+    "precision": 0.6275,
+    "recall": 1.0,
+    "f1_score": 0.7711,
+    "false_positive_rate": 0.1979,
+    "accuracy": 0.8516,
+    "tp": 32,
+    "fn": 0,
+    "fp": 19,
+    "tn": 77,
+    "latency_n_detected": 32,
+    "latency_mean_latency": 8.41,
+    "latency_median_latency": 5.0,
+    "latency_min_latency": 2.0,
+    "latency_max_latency": 37.0
+  }
+}
